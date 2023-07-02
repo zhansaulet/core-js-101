@@ -69,7 +69,7 @@ function getStringFromTemplate(firstName, lastName) {
  *   'Hello, Chuck Norris!' => 'Chuck Norris'
  */
 function extractNameFromTemplate(value) {
-// throw new Error('Not implemented');
+  // throw new Error('Not implemented');
   const len = value.length;
   return value.slice(7, len - 1);
   // console.log(value);
@@ -152,7 +152,7 @@ function removeFirstOccurrences(str, value) {
     for (let j = 0; j < str.length; j += 1) {
       if (value[i] === copyStr[j]) {
         // && value === copyStr.substr(j, len - 1)
-        console.log(j);
+        // console.log(j);
         newStr = str.slice(j, len - 1);
         break;
       }
